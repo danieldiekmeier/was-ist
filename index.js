@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const wikiClient = require('wikijs').default
 
 const what = process.argv[process.argv.length - 1]
