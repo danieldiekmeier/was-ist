@@ -1,6 +1,6 @@
 {
   "name": "was-ist",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Ever wondered what something is? Wonder no longer.",
   "main": "index.js",
   "scripts": {
