@@ -17,5 +17,10 @@ wiki
   }).then(result => {
     return result.content()
   }).then(content => {
-    console.log(content.split(/\.\s/)[0] + '.')
+    const firstSentence = content
+      .replace(/\(.*?\)/g, '')
+      .replace('  ', ' ')
+      .split(/\.\s/)[0] + '.'
+
+    console.log(firstSentence)
   })
